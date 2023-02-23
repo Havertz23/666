@@ -97,7 +97,7 @@ readonly GREEN_SEPARATOR="${aCOLOUR[0]}:$COLOUR_RESET"
 TARGET_ARCH=""
 TMP_ROOT=/tmp/casaos-installer
 REGION="UNKNOWN"
-CASA_DOWNLOAD_DOMAIN="https://gh.havertz.tk/https://github.com/"
+CASA_DOWNLOAD_DOMAIN="https://casaos.oss-cn-shanghai.aliyuncs.com/"
 
 trap 'onCtrlC' INT
 onCtrlC() {
